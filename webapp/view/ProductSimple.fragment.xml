@@ -10,4 +10,5 @@
 		infoState="Error"
 		press=".onItemSelected">
 	</StandardListItem>
+	
 </core:FragmentDefinition>
