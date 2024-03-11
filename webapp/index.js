@@ -15,18 +15,18 @@ sap.ui.require([
 		sap.ui.getCore().setModel(oProductModel, "products");
 
 		var oModel = new JSONModel({
-			firstName: "Harry",
-			lastName: "Hawk",
+			firstName: "Niharika",
+			lastName: "Racha",
 			enabled: true,
 			address: {
-				street: "Dietmar-Hopp-Allee 16",
-				city: "Walldorf",
-				zip: "69190",
-				country: "Germany"
+				street: "SR Nagar",
+				city: "Hyderabad",
+				zip: "500039",
+				country: "India"
 			},
-			salesAmount: 12345.6789,
+			salesAmount: 12389.6789,
 			priceThreshold: 20,
-			currencyCode: "EUR"
+			currencyCode: "INR"
 		});
 
 		// Assign the model object to the SAPUI5 core
